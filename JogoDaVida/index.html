@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="active-btns.js"></script>
+    <title>Jogo Da Vida</title>
+</head>
+<body>
+
+        <div id="gridContainer">
+            
+        </div>
+    
+        <div class="controls">
+            <button id="start"><span>Começar</span></button>
+            <button id="clear"><span>Limpar</span></button>
+            <button id="random"><span>Aleatório</span></button>
+            <button id="bhelp"><span>Intruções</span></button>
+        </div>
+
+        <div class="ajuda" id="help">
+            <button id="bttn"><i id="btn" class="ph-x"></i></button>
+            
+            <div id="helpBox">
+                <div id="title">
+                    <span>INSTRUÇÕES</span>
+                </div>
+                <div>
+                    <ol>
+                        <li>Qualquer espaço vazio com exatamente três vizinhos vivos se torna uma célula viva.</li>
+                        <li>Qualquer célula viva com menos de dois vizinhos vivos morre de solidão.</li>
+                        <li>Qualquer célula viva com mais de três vizinhos vivos morre de superpopulação.</li>
+                        <li>Qualquer célula viva com dois ou três vizinhos vivos continua viva para a próxima
+                            geração.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+</body>
+
+
+</html>
